@@ -1,0 +1,8 @@
+{
+  "name": "Formatter For HTML articles",
+  "description": "Simple formatter for blog article formatting in HTML",
+  "repository": "https://github.com/fromdev/formatter.git",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
