@@ -16,7 +16,10 @@ app.get('/', function(request, response) {
 });
 
 app.get('/title', function(request, response) {
-    titleExtractor(request, response);
+    response.setHeader('Content-Type', 'application/json');
+    titleExtractor(request.query.u, function(data){
+        response.send(data);
+    });
 });
 
 app.listen(app.get('port'), function() {
